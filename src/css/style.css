@@ -1,5 +1,6 @@
 body {
-    max-width: 1440;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* header- CABEÇALHO E LOGO */
@@ -157,4 +158,63 @@ body {
     top: 30%;
     left: 50%;
 }
+
+
+
+
+    /* footer estilizando logo */
+
+.rodape {
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: aliceblue;
+}
+
+.rodape ul li a:hover {
+    font-weight: 600;
+    color: brown;
+    font-size: 20px;
+}
+
+.rodape .copyright {
+    color: aliceblue;
+    
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+
+
+
+/* footer conteudo de baixo */
+
+.rodape .conteudo-de-baixo {
+    margin-top: 40px;
+}
+
+
 

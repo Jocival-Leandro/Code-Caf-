@@ -11,8 +11,8 @@
     <meta name="description" content="Cafeteria especializada em cafés gourmet de alta qualidade">
 
     <link rel="stylesheet" href="src/css/reset.css">
-    
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,12 +44,12 @@
         <section class="secao-com-texto"
         id="quem-somos">
 
-        <header>
-            <img src="/src/images/logo-secoes.png">
-            <h2>Quem somos</h2>
-        </header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis perspiciatis officiis commodi ad molestias? Commodi minus dolorem ad quis, placeat distinctio quasi cum laborum et vel rerum doloremque excepturi.</p>
-            
+            <header>
+                <img src="/src/images/logo-secoes.png">
+                <h2>Quem somos</h2>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis perspiciatis officiis commodi ad molestias? Commodi minus dolorem ad quis, placeat distinctio quasi cum laborum et vel rerum doloremque excepturi.</p>
+                
         </section>
 
         <section  class="ladrilho">
@@ -86,17 +86,29 @@
 
     </main>
 
-    <footer>
-        <a href=""></a>
+    <footer class="rodape">
+        <a href="index.html">
+            <img src="/src/images/logo.jpg" class="logo">
+        </a>
 
         <ul>
-            <li><a href="">Quem somos?</a></li>
-            <li><a href="">Onde estamos?</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#quem-somos">Quem somos?</a></li>
+            <li><a href="#onde-estamos">Onde estamos?</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
 
-        <div class="redes-sociais"></div>
-        <div class="copyright"></div>
+        <div class="conteudo-de-baixo">
+
+            <div class="redes-sociais">
+                <a href="#" target="_blank">
+                    <img class="facebook" title="logo facebook" src="/src/images/face.png" alt="logo facebook">
+                </a>
+                <a href="#" target="_blank">
+                    <img class="instagram" title="logo instagram" src="/src/images/insta.png" alt="logo instagram">
+                </a>
+            </div>
+            <div class="copyright">2023 Code Café</div>
+        </div>
     </footer>
     
 </body>
